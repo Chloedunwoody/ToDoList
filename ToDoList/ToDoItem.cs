@@ -22,7 +22,6 @@ namespace ToDoList
                 new ToDoItem("Hair"),
                 new ToDoItem("Walk Dog"),
                 new ToDoItem("Sleep"),
-                new ToDoItem("Go To Gym")
             };
         }
     }
