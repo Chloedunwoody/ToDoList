@@ -1,0 +1,32 @@
+﻿<Properties StartupConfiguration="{3FD36FC0-6062-4F8E-A976-C2A6126DE462}|Default">
+  <MonoDevelop.Ide.ItemProperties.ToDoList.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget." />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ToDoList/ToDoPage.xaml">
+    <Files>
+      <File FileName="ToDoList/ToDoViewModel.cs" Line="30" Column="53" />
+      <File FileName="ToDoList/ToDoPage.xaml" Line="2" Column="1" />
+      <File FileName="ToDoList/ToDoPage.xaml.cs" />
+      <File FileName="ToDoList/ToDoItem.cs" />
+      <File FileName="ToDoList/BoolToColorConverter.cs" />
+      <File FileName="ToDoList/EndOfList.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ToDoList" expanded="True">
+            <Node name="ToDoList" expanded="True">
+              <Node name="App.xaml" expanded="True" />
+              <Node name="ToDoPage.xaml" expanded="True" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.ToDoList.Android PreferredExecutionTarget="Android.pixel_2_pie_9_0_-_api_28" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

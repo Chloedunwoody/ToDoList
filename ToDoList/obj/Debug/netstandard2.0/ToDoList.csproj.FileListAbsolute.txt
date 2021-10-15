@@ -1,0 +1,15 @@
+/Users/chloedunwoody/Desktop/ToDoList/ToDoList/bin/Debug/netstandard2.0/ToDoList.deps.json
+/Users/chloedunwoody/Desktop/ToDoList/ToDoList/bin/Debug/netstandard2.0/ToDoList.dll
+/Users/chloedunwoody/Desktop/ToDoList/ToDoList/bin/Debug/netstandard2.0/ref/ToDoList.dll
+/Users/chloedunwoody/Desktop/ToDoList/ToDoList/bin/Debug/netstandard2.0/ToDoList.pdb
+/Users/chloedunwoody/Desktop/ToDoList/ToDoList/obj/Debug/netstandard2.0/ToDoList.csproj.AssemblyReference.cache
+/Users/chloedunwoody/Desktop/ToDoList/ToDoList/obj/Debug/netstandard2.0/ToDoList.GeneratedMSBuildEditorConfig.editorconfig
+/Users/chloedunwoody/Desktop/ToDoList/ToDoList/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/chloedunwoody/Desktop/ToDoList/ToDoList/obj/Debug/netstandard2.0/ToDoPage.xaml.g.cs
+/Users/chloedunwoody/Desktop/ToDoList/ToDoList/obj/Debug/netstandard2.0/ToDoList.AssemblyInfoInputs.cache
+/Users/chloedunwoody/Desktop/ToDoList/ToDoList/obj/Debug/netstandard2.0/ToDoList.AssemblyInfo.cs
+/Users/chloedunwoody/Desktop/ToDoList/ToDoList/obj/Debug/netstandard2.0/ToDoList.csproj.CoreCompileInputs.cache
+/Users/chloedunwoody/Desktop/ToDoList/ToDoList/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/chloedunwoody/Desktop/ToDoList/ToDoList/obj/Debug/netstandard2.0/ToDoList.dll
+/Users/chloedunwoody/Desktop/ToDoList/ToDoList/obj/Debug/netstandard2.0/ref/ToDoList.dll
+/Users/chloedunwoody/Desktop/ToDoList/ToDoList/obj/Debug/netstandard2.0/ToDoList.pdb

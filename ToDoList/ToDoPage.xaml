@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:ToDoList"
+    x:Class="ToDoList.ToDoPage"
+    Title="{Binding PageTitle}"
+    x:Name="ToDoViewPage">
+
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem
+            Text="Add a To Do"
+            Order="Primary"
+            Priority="0"
+            Command="{Binding AddToDoCommand}"/>
+    </ContentPage.ToolbarItems>
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <local:BoolToColorConverter x:Key="BoolToColor"/>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <ContentPage.Content>
+             <ListView ItemsSource="{Binding Items}" SelectedItem="{Binding SelectedItem}">
+                 <ListView.Header>
+                     <StackLayout>
+                         <ProgressBar Progress="{Binding CompletedProgress}"
+                                      ProgressColor="Red"/>
+                         <Label Text="{Binding CompletedHeader}"
+                                TextColor="Blue"/>
+                     </StackLayout>
+                 </ListView.Header>
+                 <ListView.ItemTemplate>
+                     <DataTemplate>
+                    <ViewCell>
+                        <ViewCell.ContextActions>
+                            <MenuItem
+                                Text="Complete"
+                                Command="{Binding Path=BindingContext.MarkAsCompletedCommand, Source={x:Reference ToDoViewPage}}"
+                                CommandParameter="{Binding .}"
+                                />
+                        </ViewCell.ContextActions>
+                        <StackLayout>
+                             <Label
+                                 Text="{Binding Name}"
+                                 TextColor="{Binding Complete, Converter={StaticResource BoolToColor}}"/>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </ContentPage.Content>
+</ContentPage>
