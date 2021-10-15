@@ -11,9 +11,9 @@ namespace ToDoList
         {
             if ((bool)value)
             {
-                return Color.ForestGreen;
+                return TextDecorations.Strikethrough;
             }
-            return Color.Default;
+            return TextDecorations.None;
         }
 
         public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)
